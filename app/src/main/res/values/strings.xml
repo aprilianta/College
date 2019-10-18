@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Adbo_Admin</string>
+    <string name="nim">NIM</string>
+    <string name="nama">Nama</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="semester">Semester</string>
+    <string name="pria">Pria</string>
+    <string name="wanita">Wanita</string>
+    <string name="nip">NIP / NIK</string>
+    <string name="register">Register</string>
+    <string name="update">Update</string>
+    <string name="dosenwali">Dosen Wali</string>
+    <string name="pin">Pin</string>
+    <string name="judulkelolamhs">Kelola Mahasiswa</string>
+    <string name="judulkeloladosen">Kelola Dosen</string>
+    <string name="judulkelolakajur">Kelola Kepala Jurusan</string>
+    <string name="judulinputmhs">Input Data Mahasiswa</string>
+    <string name="judulinputdosen">Input Data Dosen</string>
+    <string name="judulinputkajur">Input Data Kepala Jurusan</string>
+    <string name="judulubahmhs">Ubah Data Mahasiswa</string>
+</resources>

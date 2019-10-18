@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.grd.adbo_admin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="Administrator"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activity.LoginActivity"
+            android:label="Administrator">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.MainActivity" />
+        <activity
+            android:name=".Activity.ViewMahasiswaActivity"
+            android:label="@string/judulkelolamhs" />
+        <activity
+            android:name=".Activity.InsertMahasiswaActivity"
+            android:label="@string/judulinputmhs" />
+        <activity android:name=".Activity.UpdateMahasiswaActivity" />
+        <activity
+            android:name=".Activity.ViewDosenActivity"
+            android:label="@string/judulkeloladosen" />
+        <activity
+            android:name=".Activity.InsertDosenActivity"
+            android:label="@string/judulinputdosen" />
+        <activity android:name=".Activity.UpdateDosenActivity" />
+        <activity
+            android:name=".Activity.ViewKajurActivity"
+            android:label="@string/judulkelolakajur" />
+        <activity
+            android:name=".Activity.InsertKajurActivity"
+            android:label="@string/judulinputkajur" />
+        <activity android:name=".Activity.UpdateKajurActivity"></activity>
+    </application>
+
+</manifest>
